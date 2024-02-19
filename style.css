@@ -148,10 +148,18 @@ body {
     font-size: 24px;
 }
 
-/* .content {
-    flex: 1;
+.footer {
     display: flex;
-} */
+    padding: 50px;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
 .logo {
   font-size: 24px;
